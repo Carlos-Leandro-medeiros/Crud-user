@@ -1,0 +1,25 @@
+.button{
+    border-style: none;
+    height: 40px;
+    padding: 6px 12px;
+    background-color: black;
+    color: aliceblue;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: box-shadow .6s ease;
+    border-radius: 50px;
+}
+
+button.blue{
+    background-color: aqua;
+}
+button.green{
+    background-color: chartreuse;
+}
+button.red{
+    background-color: red;
+}
+
+button:hover{
+    box-shadow: inset 200px 0 0 black;
+}
